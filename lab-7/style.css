@@ -1,0 +1,21 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+@keyframes photos {
+	0%{
+ background-position: 0 0;
+	}
+
+	100%{
+	background-position: -15640px 0;
+	}
+}
+
+#animation-container {
+	animation: sprite 20s steps(9)0s;
+	width: 230px
+	height: 230px
+	background-image: url('sprite.jpg')
+}
